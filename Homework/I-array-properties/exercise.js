@@ -5,15 +5,20 @@
 
 */
 
-function isEmpty(numbers,names) {
-  if (numbers = 1){
-    return false
+/*
+  Array properites
+  ----------------
+  Complete the function to test if an array is empty (has no values in it)
+*/
+
+function isEmpty(arr) {
+  if (arr.length === 0) {
+    return true ; // complete this statement
   }
-  else if (names = 0);
-  {
-return true
-}
- // complete this statement
+  else {
+    return false;
+  }
+   
 }
 
 /* 
@@ -24,10 +29,3 @@ var names = [];
 
 console.log(isEmpty(numbers));
 console.log(isEmpty(names));
-
-/* 
-  EXPECTED RESULT
-  ---------------
-  false
-  true
-*/
